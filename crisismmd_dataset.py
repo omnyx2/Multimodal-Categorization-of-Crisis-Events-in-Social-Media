@@ -24,6 +24,11 @@ from base_dataset import expand2square
 
 from paths import dataroot
 
+# 테스크를 3개로 나눈다. informative, humanitarian, humanitarian
+# 1) Informativeness: whether
+# the social media post is useful for providing humanitarianaid in an emergency event,
+
+
 task_dict = {
     'task1': 'informative',
     'task2': 'humanitarian',
